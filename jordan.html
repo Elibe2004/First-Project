@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Munch - Restaurant and everything</title>
+<style>
+.item {
+    text-decoration: none;
+    padding: 20px;
+}
+#topbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+.item.active {
+    color: #ff963a;
+}
+/* this is a comment to explain the name search box */
+.searchbox {
+    position: relative;
+    border: 1px solid #ff963a;
+border-radius: 20px;
+padding: 5px;
+padding-left: 10px;
+overflow: hidden;
+}
+.searchbox input {
+outline: none;
+border: none;
+width: 90%;
+}
+.searchbox button {
+    outline: none;
+    border: none;
+    color: #ff963a;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 100%;
+    
+    
+}
+</style>
+
+</head>
+<body>
+    
+    
+        <nav id="topbar">
+            <div class="logo" id="">
+                <h1>Logo</h1>
+            </div>
+            <div class="items">
+                <a href="index.html" class="item active">Home</a>
+                <a href="#" class="item">About</a>
+                <a href="#" class="item">Product</a>
+                <a href="#" class="item">Contact</a>
+            </div>
+            <div class="search">
+                <div class="searchbox">
+                    <input type="text" placeholder="Search Food">
+                    <button>S</button>
+                </div>
+            </div>
+        </nav>
+
+
+     <header>
+    </header>
+</body>
+</html>
